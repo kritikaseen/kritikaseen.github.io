@@ -200,8 +200,9 @@ h1.name {
 	margin: 7px 5px;
 	vertical-align: top;
 	border-radius: 10px;
-	text-align: center;
-	padding-top: 50px
+	text-align: left;
+	padding-top: 10px
+	padding-left : 10px;
 }
 
 .card-active , .card:hover{
