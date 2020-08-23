@@ -5,13 +5,18 @@
 	<link rel="stylesheet" type="text/css" href="style_queue.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<script type="text/javascript" src="queueran_process.js"></script>
 </head>
-<body>
+<body onload="run();">
 	<div class="header_main">
 		<span> <span class="extra_b1"> Queue ran 2.0 </span> narrated by <a href="https://twitter.com/DimwitsNumbnutz">Dr. Abdul बवाल Malik</a></span>
+	<br><br>
+	<select id="verseSelector" onchange="displayVerse()">
+		<option value="all">All Verses</option>
+	</select>
 	</div>
 
-	<div class="verses">
+	<div class="verses" id="1_1">
 		<div class="verse_heading"><u>Verse</u> : 1:1</div>
 		<div class="verse_chapter"><u>Chapter Name</u> : Tharak-un Nisa</div>
 		<div class="verse_text">
@@ -19,7 +24,7 @@
 		</div>
 	</div>
 
-	<div class="verses">
+	<div class="verses" id="1_2">
 		<div class="verse_heading"><u>Verse</u> : 1:2</div>
 		<div class="verse_chapter"><u>Chapter Name</u> : Tharak-un Nisa</div>
 		<div class="verse_text">
@@ -27,7 +32,7 @@
 		</div>
 	</div>
 
-	<div class="verses">
+	<div class="verses" id="1_3">
 		<div class="verse_heading"><u>Verse</u> : 1:3</div>
 		<div class="verse_chapter"><u>Chapter Name</u> : Tharak-un Nisa</div>
 		<div class="verse_text">
@@ -35,7 +40,7 @@
 		</div>
 	</div>
 
-	<div class="verses">
+	<div class="verses" id="1_4">
 		<div class="verse_heading"><u>Verse</u> : 1:4</div>
 		<div class="verse_chapter"><u>Chapter Name</u> : Tharak-un Nisa</div>
 		<div class="verse_text">
@@ -43,11 +48,19 @@
 		</div>
 	</div>
 
-	<div class="verses">
+	<div class="verses" id="1_5">
 		<div class="verse_heading"><u>Verse</u> : 1:5</div>
 		<div class="verse_chapter"><u>Chapter Name</u> : Tharak-un Nisa</div>
 		<div class="verse_text">
 			<p>"O believers, who groweth hair on face and has scrotum down there, yee must not use what is above your shoulders to think, and make the commandar of what is between your legs."</p>
+		</div>
+	</div>
+
+	<div class="verses" id="1_6">
+		<div class="verse_heading"><u>Verse</u> : 1:6</div>
+		<div class="verse_chapter"><u>Chapter Name</u> : Tharak-un Nisa</div>
+		<div class="verse_text">
+			<p>"O believers, who groweth bosom and has no scrotum down there, yee must not use what is above your shoulders to think, for you lack necessary equipment to think."</p>
 		</div>
 	</div>
 
