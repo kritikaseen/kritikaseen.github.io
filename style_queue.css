@@ -1,0 +1,61 @@
+body{
+	background-color: white;
+}
+
+.header_main{
+	font-family: Montserrat,sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+.extra_b1{
+	color: #2ca4ab;
+	font-size: 35px;
+	font-weight: bold;	
+}
+
+a{
+	color: #0060B6;
+	text-decoration: none;
+}
+
+.verses {
+	width: 60%;
+	background-color: #f0fff4;
+	transform: translate(34%,0%);
+
+	display: inline-block;
+	margin-top: 30px;
+	border-radius: 10px;
+	
+}
+
+.verse_heading{
+	text-align: center;
+	font-family: Montserrat,sans-serif;
+	color: #315c3f;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.verse_chapter{
+	text-align: left;
+	font-family: Montserrat,sans-serif;
+	color: #2ca4ab;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.verse_text{
+	text-align: left;
+	font-family: Montserrat,sans-serif;
+	color: #777;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-right: 20px;
+}
