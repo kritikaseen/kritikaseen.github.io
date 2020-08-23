@@ -21,7 +21,7 @@ a{
 	text-decoration: none;
 }
 
-#verseSelector{
+select{
 	background-color: #f0fff4;
 	font-family: Montserrat,sans-serif;
 	font-size: 18px;
