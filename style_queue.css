@@ -1,11 +1,13 @@
 body{
 	background-color: white;
+	margin-bottom: 50px;
 }
 
 .header_main{
 	font-family: Montserrat,sans-serif;
 	text-align: center;
 	font-size: 18px;
+	margin-bottom: 50px;
 }
 
 .extra_b1{
@@ -25,9 +27,8 @@ a{
 	transform: translate(34%,0%);
 
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 50px;
 	border-radius: 10px;
-	
 }
 
 .verse_heading{
@@ -61,6 +62,55 @@ a{
 }
 .verses:hover{
 	background-color: #fff;
-	box-shadow: 0px 5px 50px -8px #ddd;
+	box-shadow: 0px 5px 50px -8px orangered;
+
 	cursor: pointer;
+	animation-name: flash_border;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: flash_border;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: flash_border;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+}
+
+@keyframes flash_border {
+  0% {
+    box-shadow: 0px 5px 50px -8px orangered;
+  }
+  50% {
+    box-shadow: 0px 5px 50px -8px gold;
+  }
+  100% {
+    box-shadow: 0px 5px 50px -8px orangered;
+  }
+}
+
+@-webkit-keyframes flash_border {
+  0% {
+    box-shadow: 0px 5px 50px -8px orangered;
+  }
+  50% {
+    box-shadow: 0px 5px 50px -8px gold;
+  }
+  100% {
+    box-shadow: 0px 5px 50px -8px orangered;
+  }
+}
+
+@-moz-keyframes flash_border {
+  0% {
+    box-shadow: 0px 5px 50px -8px orangered;
+  }
+  50% {
+    box-shadow: 0px 5px 50px -8px gold;
+  }
+  100% {
+    box-shadow: 0px 5px 50px -8px orangered;
+  }
 }
